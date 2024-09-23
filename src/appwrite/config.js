@@ -103,5 +103,4 @@ async deleteFile(fileId){
 getFilePreview(fileId){
   return this.bucket.getFilePreview(conf .appwriteBucketId,fileId);
 }
-
 }
